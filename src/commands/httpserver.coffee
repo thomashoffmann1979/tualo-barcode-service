@@ -9,11 +9,9 @@ mkdirp = require 'mkdirp'
 QRCode = require 'qrcode'
 
 
-PDFDocument = require('pdfkit')
 app = require('express')()
 http = require('http').Server(app)
 bbs = require('../main')
-parseString = require('xml2js').parseString;
 
 grayprinter=''
 colorprinter=''
